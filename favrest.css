@@ -2,7 +2,7 @@ li {
   font-size: 20px;
   font-style: italic;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 div {
@@ -12,15 +12,16 @@ header {
   font-size: 40px;
   text-align: center;
   font-weight: bolder;
-  color: white;
+  color: black;
 
 }
 
 
 .juniper {
-  border-style: solid;
-  border-color: #ffe3c6;
+  border-style: dotted;
+  border-color: #c20095;
   margin-bottom: 40px;
+  border-width: thick;
 
 }
 
@@ -32,4 +33,23 @@ header {
 
 body {
   background-color: #95c200;
+}
+
+nav {
+  border-style: double;
+  border-color: white;
+
+}
+
+#table {
+  border-style: groove;
+}
+.button {
+  padding:5px;
+  background-color: #C6E2FF;
+  border: 1px solid #666;
+  color:#000;
+  text-decoration:none;
+  font-family:cursive;
+  
 }
